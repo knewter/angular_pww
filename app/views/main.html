@@ -1,6 +1,10 @@
 <div class="hero-unit">
   <h1>Probably Worth Watching</h1>
   <ul>
-    <li ng-repeat="video in videos">{{video}}</li>
+    <li ng-repeat="video in videos">
+      <div class='title'>
+        {{video.title}}
+      </div>
+    </li>
   </ul>
 </div>
